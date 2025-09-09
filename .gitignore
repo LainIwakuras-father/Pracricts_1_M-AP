@@ -1,0 +1,76 @@
+# =============================
+# Игнор для C# / .NET проектов
+# =============================
+
+# Папки сборки и выходные файлы
+bin/
+obj/
+artifacts/
+publish/
+
+# Файлы Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файлы ReSharper
+_ReSharper*/
+*.ReSharper.user
+
+# Файлы Rider
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+nuget.exe
+
+# Пакеты и зависимости
+packages.lock.json
+project.lock.json
+project.assets.json
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# Пользовательские настройки
+*.csproj.user
+Directory.Build.user
+
+# Файлы отладки
+*.pdb
+*.mdb
+
+# Покрытие кода
+coverage*.xml
+*.coverage
+
+# Azure Functions
+local.settings.json
+appsettings.Development.json
+
+# Unity (если используется)
+/Library/
+/Temp/
+/Builds/
+/UserSettings/
+
+# Rider / VS Code
+/.vscode/
+/.rider/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Docker (опционально, если не хочешь коммитить)
+.dockerignore

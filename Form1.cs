@@ -10,6 +10,7 @@ public partial class Form1 : Form
 
 
     Thread PlusThread = null;
+    Thread MinusThread = null;
     public static object mtxA = new object();
     public static object mtxB = new object();
     public delegate void Progress();
@@ -78,34 +79,36 @@ public partial class Form1 : Form
 
     public void StepMethod()
     {
-        if (progressBar1.Value < progressBar1.Maximum)
+        if (progressBar1 != null && progressBar1.Value < progressBar1.Maximum)
                 progressBar1.Value += 1;
     }
     public void MinusMethod()
     {
-        if (progressBar1.Value > progressBar1.Minimum)
+        if (progressBar1 != null && progressBar1.Value > progressBar1.Minimum)
             progressBar1.Value -= 1;
     }
     private void ButtonPlus_Click(object sender, EventArgs e)
     {
-        if (PlusThread == null)
+        if (PlusThread != null && PlusThread.IsAlive)
         {
-            PlusThread = new Thread(new ThreadStart(ThreadPlusFunc))
-            {
-                IsBackground = true,
-                Priority = ThreadPriority.Normal
-            };
-            PlusThread.Start();
-            timer1.Enabled = false;
-            buttonPlus.Enabled = false;
+            return;
         }
-    }
-    private void ButtonMinus_Click(object sender, EventArgs e)
-    {
-        Thread MinusThread = new Thread(new ThreadStart(ThreadMinusFunc))
+
+        PlusThread = new Thread(ThreadPlusFunc)
         {
             IsBackground = true,
             Priority = ThreadPriority.Normal
+        };
+        PlusThread.Start();
+        timer1.Enabled = false;
+        // buttonPlus.Enabled = false;
+    }
+    private void ButtonMinus_Click(object sender, EventArgs e)
+    {
+        Thread MinusThread = new Thread(ThreadMinusFunc)
+        {
+            IsBackground = true,
+            Priority = ThreadPriority.AboveNormal
         };
         MinusThread.Start();
         timer1.Enabled = true;
