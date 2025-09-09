@@ -1,0 +1,14 @@
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\bin\Debug\net9.0-windows\SyncDemo.exe
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\bin\Debug\net9.0-windows\SyncDemo.deps.json
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\bin\Debug\net9.0-windows\SyncDemo.runtimeconfig.json
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\bin\Debug\net9.0-windows\SyncDemo.dll
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\bin\Debug\net9.0-windows\SyncDemo.pdb
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.AssemblyInfoInputs.cache
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.AssemblyInfo.cs
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.csproj.CoreCompileInputs.cache
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.dll
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\refint\SyncDemo.dll
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.pdb
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\SyncDemo.genruntimeconfig.cache
+C:\Users\1\OneDrive\Рабочий стол\study\MиАп\SyncDemo\obj\Debug\net9.0-windows\ref\SyncDemo.dll
